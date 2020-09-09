@@ -1,2 +1,23 @@
-h1
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap')
+$small: 480px
+
+.home-background
+  padding-top: 250px
+  padding-bottom: 250px
+  background-repeat: no-repeat
+  background-size: 100%
+  background-image: url("https://images.pexels.com/photos/2910028/pexels-photo-2910028.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+  @media screen and (max-width: $small)
+    padding-top: 150px
+
+.react-reveal
+  font-size: 40pt
   text-align: center
+  font-family: 'Kanit', sans-serif
+  @media screen and (max-width: $small)
+    font-size: 15pt
+
+.list
+  align-items: center
+  justify-content: center
+  padding-top: 100px

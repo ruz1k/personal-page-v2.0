@@ -36,13 +36,6 @@ module.exports = {
         },
       },
       {
-        test: /\.(woff(2)?|ttf|eot)(\?v=\d+\.\d+\.\d+)?$/,
-        loader: "file-loader",
-        options: {
-          name: "[name].[ext]",
-        },
-      },
-      {
         test: /\.sass$/,
         use: [
           "style-loader",

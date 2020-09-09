@@ -8,8 +8,7 @@ import './navigation.sass'
 
 const Navigation = () => {
   return (
-    <>
-    <Menu mode="horizontal" theme='dark' style={{textAlign:"center", fontSize:'15px', fontStyle:'Roboto'}}>
+    <Menu mode="horizontal" theme='dark'>
       <Menu.Item key="home" icon={<HomeOutlined />}>
         <A href='/'>
         Home
@@ -31,7 +30,6 @@ const Navigation = () => {
         </A>
       </Menu.Item>
     </Menu>
-    </>
   );
 }
 
