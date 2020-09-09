@@ -7,12 +7,13 @@ const routes = {
   "/": () => <Home />,
   "/about": () => <About />,
   "/resume": () => <Resume />,
+  "/contact": () => <Contact />
 };
 
 const Route = () => {
   const routeResult = useRoutes(routes);
 
-  return routeResult || <NotFoundPage />;
+  return routeResult
 };
 
 export default Route;
