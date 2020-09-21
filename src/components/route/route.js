@@ -1,7 +1,7 @@
 import React from "react";
 import { useRoutes } from "hookrouter";
 
-import {NotFoundPage, About, Home} from '../pages'
+import {About, Home, Resume, Contact} from '../pages'
 
 const routes = {
   "/": () => <Home />,

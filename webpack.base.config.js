@@ -110,6 +110,7 @@ module.exports = {
       hash: false,
       template: `${PATHS.src}/index.html`,
       filename: "./index.html",
+      favicon: `${PATHS.src}/img/fav.png`
     }),
   ],
 }
