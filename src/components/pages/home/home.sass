@@ -1,23 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap')
 $small: 480px
+$tablet-width: 768px
+$laptops: 1024px
+
+.home
+  overflow: hidden
+  & h1
+    font-size: 50pt
+    text-align: left
+    padding-left: 40px
+    font-family: 'Kanit', sans-serif
+    @media screen and (max-width: $small)
+      font-size: 18pt
+      margin-bottom: 0px
+    @media screen and (min-width: $tablet-width) and (max-width: 1024px)
+      font-size: 40pt
+  & h2
+    font-size: 25pt
+    text-align: left
+    padding-left: 40px
+    font-family: 'Kanit', sans-serif
+    @media screen and (max-width: $small)
+      font-size: 14pt
+      margin-bottom: 0px
+  & .ant-card-head-title
+    font-size: 16pt
 
 .home-background
-  padding-top: 250px
-  padding-bottom: 250px
+  padding-top: 280px
+  padding-bottom: 200px
   background-repeat: no-repeat
+  width: 100%
   background-size: 100%
-  background-image: url("https://images.pexels.com/photos/2910028/pexels-photo-2910028.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+  height: 100%
+  background-blend-mode: multiply
+  background-color: rgba(0,0,0,.45)
+  background-image: url("https://images.pexels.com/photos/238118/pexels-photo-238118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
   @media screen and (max-width: $small)
-    padding-top: 150px
+    padding-top: 100px
+    padding-bottom: 70px
+    background-size: 100%
+  @media screen and (min-width: $tablet-width) and (max-width: 1024px)
+    padding-bottom: 40px
+    padding-top: 250px
 
 .react-reveal
-  font-size: 40pt
-  text-align: center
-  font-family: 'Kanit', sans-serif
-  @media screen and (max-width: $small)
-    font-size: 15pt
+  color: white
 
 .list
   align-items: center
   justify-content: center
   padding-top: 100px
+  @media screen and (max-width: $small)
+    padding-top: 50px

@@ -1,9 +1,11 @@
-import NotFoundPage from "./page404";
 import About from "./about";
 import Home from "./home";
+import Resume from "./resume";
+import Contact from "./contact";
 
 export {
-  NotFoundPage,
   About,
-  Home
+  Home,
+  Resume,
+  Contact
 }
