@@ -4,7 +4,7 @@
 
 ## About
 My name is Arthur Romanchev and i 18y/o. I live in Russia/Kazan. I'm Front-end Developer.
-![Image alt](http://aromanchev.ru/me.jpg)
+![Image alt](https://ibb.co/VJYf2mv)
 
 ## About my project
 This project was build with React technology:
