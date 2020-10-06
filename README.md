@@ -3,7 +3,7 @@ This is a simple project that describes my skill and also has a portfolio
 ![Image alt](https://i.ibb.co/fqdj4vC/2020-10-06-4.png)
 
 ## About my project
-This project was build with React technology:
+This project was build with React fraemwork:
 
 #### `npx create-react-app <project_name>`
 
