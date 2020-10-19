@@ -21,6 +21,7 @@ const Resume = () => {
                 <Image
                   style={{maxWidth: "400px", width: "100%"}}
                   src={me}
+                  preview={false}
                 />
               </Col>
               <Col xs={24} xl={12} md={12} lg={12}>
@@ -29,7 +30,7 @@ const Resume = () => {
                   <li>Age: 18 years old</li>
                   <li>Position: Frontend</li>
                   <li>Education: KSTU Kazan</li>
-                  <li>Work experience: Junior-Frontend(3 months)</li>
+                  <li>Work experience: 1 June - present time</li>
                   <li>Main Technologies: JavaScript, React+Redux, Sass</li>
                   <li>Other Technologies: Python, Django, HTML, CSS</li>
                 </ul>
@@ -38,9 +39,6 @@ const Resume = () => {
           </Card>
         </Fade>
         <Divider/>
-        <Fade bottom cascade>
-
-        </Fade>
       </Col>
     </Row>
   )

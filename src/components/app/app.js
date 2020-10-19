@@ -1,11 +1,12 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 
 import Navigation from "../navigation";
 import Route from "../route";
+import './app.sass'
 
 const App = (props) => {
   useEffect(() => {
-    const {history} = props
+    const { history } = props
     window.addEventListener("popstate", () => {
       history.go(0);
     });
@@ -13,8 +14,8 @@ const App = (props) => {
   }, [])
   return (
     <>
-      <Navigation/>
-      <Route/>
+      <Navigation />
+      <Route />
     </>
   );
 }

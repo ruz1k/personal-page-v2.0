@@ -50,6 +50,7 @@ const About = () => {
                 <Image
                   style={{maxWidth: "350px", width: "100%"}}
                   src={me2}
+                  preview={false}
                 />
               </Col>
               <Col xs={24} xl={12} md={12} lg={12}>
